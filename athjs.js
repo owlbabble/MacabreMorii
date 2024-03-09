@@ -299,7 +299,6 @@ const textNodes = [
         {
           text: 'Right Room',
           imgUrl: "frame0013.png",
-          setState: { noIanRay: true },
           nextText: 27
         },
         {
@@ -509,7 +508,6 @@ const textNodes = [
     options: [
         {
           text: 'Right Room',
-          requiredState: (currentState) => currentState.IanRay,
           nextText: 27
         },
       ]
